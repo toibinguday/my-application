@@ -1,0 +1,89 @@
+.mainFooter {
+    grid-area: footer;
+    background-color: #111;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .footerColumn {
+    list-style: none;
+    padding: 0;
+    width: 220px;
+    text-align: left;
+  }
+  
+  .footerColumn h4 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .footerColumn li {
+    margin: 5px 0;
+  }
+  
+  .footerColumn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footerColumn a:hover {
+    text-decoration: underline;
+  }
+  
+  .phone {
+    color: #00aaff;
+    font-weight: bold;
+  }
+  
+  .social {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .socialIcons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .paymentShipping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .shipping, .payment {
+    text-align: center;
+  }
+  
+  .shipping img, .payment img {
+    margin-top: 10px;
+  }
+  
+  .copyright {
+    background-color: #000;
+    padding: 10px;
+    font-size: 14px;
+    color: #bbb;
+    text-align: center;
+  }

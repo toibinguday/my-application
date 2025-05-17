@@ -1,0 +1,62 @@
+/* Căn chỉnh bố cục và kiểu dáng */
+.productContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.productCard {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.productCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.oldPrice {
+  color: gray;
+  font-size: 14px;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+}
+
+.remain {
+  background: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.buyButton {
+  background: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.productCard img {
+  width: 100%; /* Để ảnh tự động căn chỉnh theo chiều rộng của thẻ cha */
+  height: 150px; /* Đặt chiều cao cố định để tất cả ảnh bằng nhau */
+  object-fit: cover; /* Giữ tỷ lệ ảnh và cắt phần dư nếu cần */
+  border-radius: 8px;
+}
