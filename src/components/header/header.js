@@ -7,7 +7,7 @@ export function Header() {
         <><header className={styles.header}>
             <h1>H O M E</h1>
             <div className={styles.logo}>
-                <Image src="./next.svg" width={150} height={25} alt="logo"></Image>
+                <Image src="/images.jpg" width={200} height={150} alt="logo"></Image>
             </div>
         </header>
         <nav className={styles.navbarContainer}>

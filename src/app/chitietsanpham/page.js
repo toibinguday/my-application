@@ -3,28 +3,29 @@ export default function ChiTietSanPham() {
   return (
     <main className="container">
       <section className="product-header">
-        <h1 className="product-title">Nem Nướng Lạng Sơn</h1>
-        <p className="product-price">Giá: <strong>50.000đ/phần</strong></p>
+        <h1 className="product-title">Bò Lá Lốt</h1>
+        <p className="product-price">Giá: <strong>60.000đ/phần</strong></p>
       </section>
 
       <section className="product-main">
         <div className="product-image">
           <img
-            src="https://cdn.tgdd.vn/Files/2020/03/25/1244527/cach-lam-banh-xeo-chay-thom-ngon-gion-rum-don-gian-13-760x367.jpg"
-            alt="Nem Nướng Lạng Sơn"
+            src="https://cdn.tgdd.vn/Files/2017/03/23/964066/cach-lam-bo-nuong-la-lot-va-nuoc-cham-thom-ngon-dung-vi-202205241656356081.jpg"
+            alt="Bò Lá Lốt"
           />
         </div>
         <div className="product-info">
           <p className="short-desc">
-            Nem nướng Lạng Sơn - Đặc sản nức tiếng vùng núi, thơm lừng, béo ngậy, chinh phục mọi thực khách.
+            Bò lá lốt - Món ăn dân dã mang hương vị đặc trưng, thịt bò mềm thơm cuộn trong lá lốt nướng thơm lừng.
           </p>
 
           <h2>Thành phần:</h2>
           <ul>
-            <li>Thịt lợn xay nhuyễn</li>
-            <li>Bì lợn thái sợi</li>
-            <li>Gia vị đặc biệt</li>
-            <li>Xiên tre và lá chuối</li>
+            <li>Thịt bò xay nhuyễn</li>
+            <li>Mỡ heo</li>
+            <li>Gia vị đặc trưng</li>
+            <li>Lá lốt tươi</li>
+            <li>Xiên tre hoặc tăm tre</li>
           </ul>
 
           <div className="button-group">
@@ -37,9 +38,9 @@ export default function ChiTietSanPham() {
       <section className="product-description">
         <h2>Giới thiệu món ăn</h2>
         <p>
-          Nem nướng Lạng Sơn được chế biến từ nguyên liệu tươi ngon, tẩm ướp gia vị khéo léo, nướng trên bếp than hồng cho đến khi chín vàng óng.
-          Vị ngọt của thịt, độ dai giòn của bì và mùi thơm phức của lá chuối quyện hòa, tạo nên món ăn đậm đà khó cưỡng.
-          Thưởng thức nem nướng cùng bún, rau sống và nước chấm pha đặc biệt là chuẩn vị nhất!
+          Bò lá lốt là món ăn quen thuộc với hương vị đậm đà, hấp dẫn. Thịt bò được xay nhuyễn, tẩm ướp kỹ lưỡng rồi cuộn trong lá lốt tươi,
+          sau đó nướng trên than hồng cho đến khi dậy mùi thơm đặc trưng. Lớp lá lốt cháy xém nhẹ, thơm lừng, quyện cùng nhân thịt mềm mọng tạo nên trải nghiệm ẩm thực khó quên.
+          Thưởng thức cùng bánh hỏi, rau sống và nước mắm chua ngọt để cảm nhận trọn vẹn hương vị truyền thống.
         </p>
       </section>
     </main>

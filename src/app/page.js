@@ -5,9 +5,24 @@ import { Footer } from "@/components/footer/footer";
 
 // Danh sách sản phẩm
 const products = [
-  { image: "/image1.jpg", name: "Bánh Bèo", price: "15.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
-  { image: "/image2.jpg", name: "Bánh Khọt", price: "15.000đ - 20.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
-  { image: "/image3.jpg", name: "Bánh Xèo", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
+  { image: "/image1.jpg", name: "Bò Lá lốt", price: "25.000đ", oldPrice: "20.000đ", discount: "-25%", remain: 100 },
+  { image: "/image2.jpg", name: "Bò mỡ chài", price: "25.000đ - 30.000đ", oldPrice: "25.000đ", discount: "-20%", remain: 80 },
+  { image: "/image3.jpg", name: "Bò mỡ hành", price: "30.000đ", oldPrice: "40.000đ", discount: "-25%", remain: 50 },
 ];
 
 export default function Home() {
